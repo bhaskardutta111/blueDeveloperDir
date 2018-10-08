@@ -1,328 +1,147 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title> ProBlogger - Blog Tips to Help You Make Money Blogging - ProBlogger </title>
-  
-  <link href = "styles/style.css" type = "text/css" rel = "stylesheet">
-  <link href = "styles/help.css" type = "text/css" rel = "stylesheet">
-  <link href = "styles/end.css" type = "text/css" rel = "stylesheet">
-  <link href = "styles/main.css" type = "text/css" rel = "stylesheet">
-  
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+	<meta name="description" content="Blue Developer Directory">
+	
+<!--	<link rel = "stylesheet" href = "styles/w3.css" type = "text/css">  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/home.css">
+	
+<title>Blue Developer Directory</title>
 </head>
 
 <body>
+	<div class="container-fluid">
 
+<!--HEADER -->
+		<div class="row">
+    		<div class="col">
+      			<h1><span class="blue-text">Blue</span> Developer Directory</h1>
+    		</div>
+			<div class="col">
+      			<h4>Find A Developer <span class="now">NOW</span></h4>
+    		</div>
+  		</div>
 
-<div class = "header">
-
-	<img src="images/Problogger-Logo-Full-Colour-2017.png" />
-	<div id = "fb"> Join our <a href = "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fgroups%2Fprobloggercom">Facebook Comunnity</a> </div>
-	
-</div> <!--div header end-->
-
-<header>
-
-	<ul>
-	  <li> <a href = "https://problogger.com/start-here"> Start here </a> </li>
-	  <li> <a href = "https://problogger.com/blog"> Blog </a> </li>
-	  <li> <a href = "https://problogger.com/podcast"> Podcast </a> </li> 
-	  <li> <a href = "https://problogger.com/ebooks"> eBooks </a> </li>
-	  <li> <a href = "https://problogger.com/jobs"> Jobs </a> </li>
-	  <li> <a href = "https://problogger.com/resources"> Resources </a> </li>
-	  <li> <a href = "https://problogger.com/events"> Events </a> </li>
+<!--NAVBAR--> 
+ <nav class="nav">
+ 	<ul>
+		<li class="menuitem"> <a class="nav-link" href="index.html">Home</a> </li>
+		<li class="menuitem"></li><a class="nav-link" href="aboutus.html">About Us</a>
+		<li class="menuitem"></li><a class="nav-link" href="browsedev.html">Browse Developers</a>
+		<li class="menuitem"></li><a class="nav-link" href="registerasdev.html">Register as Developers</a>
+		<li class="menuitem"></li><a class="nav-link" href="contactus.html">Contact Us</a>
 	</ul>
-	
-		<input type = "text" placeholder = "Search">
-	
-	
-</header> <!--div nav end-->
+</nav>
 
-<div class = "welcome">
+<!--LINKS-->
+	<aside>
+		<nav id="links">
+			<h3>Links</h3>
+			<ul class="leftLinks">
+				<li class="nav-item">
+    				<a href="#">SEO</a> </li>
+				<li class="nav-item">
+    				<a href="#">PHP</a> </li>
+    			<li class="nav-item">
+    				<a href="#">AJAX</a> </li>
+    			<li class="nav-item">
+    				<a href="#">jQuery</a> </li>
+    			<li class="nav-item">
+    				<a href="#">Web Design</a> </li>
+				<li class="nav-item">
+    				<a href="#">Web Developer</a> </li>
+    			<li class="nav-item">
+    				<a href="#">Content Creation</a> </li>
+    			<li class="nav-item">
+    				<a href="#">Internet Marketing</a> </li>
+    			<li class="nav-item">
+    				<a href="#">XHTML Templates</a> </li>
+			</ul>
+    			<h3>Newsletter</h3>
+    			Please enter your Email address <br>
+    			<form action="" method="post">
+    				Name: <br>
+    				<input type="text" name="fullName"> <br>
+    				Email: <br>
+    				<input type="email" name="email"> <br>
+    				<input type="submit" name="Send">
+    				<a href="#" onClick="clearAll()">Clear</a>
+    			</form>		
+		</nav>
+	</aside>
 
-  <img src = "images/darren.jpg" />
-  <h1> Welcome Back! </h1>
- 
-  <div class ="latestblog">
-  
-    <div id = "blog"> Latest Blog Post </div>
-	
-	<a href = "https://problogger.com/edit-your-blog-posts/">
-	<img src = "images/numbers.jpg"> </a>
-	<div id = "case"> How to Use Numbers Effectively in <br> your Blog Posts </div>
-	
-  </div> <!--div latestblog end-->
-  
-  <div class ="latestpodcast">
-  
-	<div id = "podcast"> Latest Podcast </div>
-	
-	<a href = "https://problogger.com/podcast/choosing-a-domain-name/">
-	<img src = "images/email.jpg"> </a>
-	
-	<div id = "how"> 220: What you Shouls include in your <br> Email Newsletters  </div>
-	
-  </div> <!--div latestpodcast end-->
-  
-  <div id = "subscribe-button1"> <a href = ""> Subscribe To ProBloggerPlus </a> </div>
+<!--SECTION UP-->
+	<section class="bio">
+		<h4>Welcome to Blue Developer Directory!</h4> <br>
+		<img src="images/web.jpg" alt="web">
+		<h6> Who are We? </h6>
+		<p> We are a fictional website and service that list top web <br> developers around the world. Search and browse <br> fictional web developers on our website absolutley <br> FREE! </p>
 
+		<h6> What Skills Do Our Developers Have? </h6>
+		<p> Our listed fictional web developers skill ranges from Graphic design with Photoshop, Illustrator and Fireworks to markup languages like HTML5, XHTML and XML to programming languages such as Javascript, PHP, Python and ASP </p>
+	</section>	
 
-</div> <!--div welcome end-->
+<!--SECTION 2-->
+	<section class="latestdev">
+		<h4>Latest Blue Developers</h4> <br>
+		<table class="developers">
+			<tr class="names">
+				<th>Megan Jennings</th>
+				<th>Michael Oliver</th>
+				<th>Rick Monroe</th>
+				<th>Adam Sullivan</th>
+			</tr>
+			<tr>
+				<td>Location: Boston, USA</td>
+				<td>Location: Boston, USA</td>
+				<td>Location: Boston, USA</td>
+				<td>Location: Boston, USA</td>
+			</tr>
+			<tr>
+				<td>Skills: HTML, CSS, PHP, ROR</td>
+				<td>Skills: HTML, CSS, PHP, ROR</td>
+				<td>Skills: HTML, CSS, PHP, ROR</td>
+				<td>Skills: HTML, CSS, PHP, ROR</td>
+			</tr>
+			<tr>
+				<td>Availibility: Full-Time</td>
+				<td>Availibility: Full-Time</td>
+				<td>Availibility: Full-Time</td>
+				<td>Availibility: Full-Time</td>
+			</tr>
+			<tr>
+				<td><a href="#">View Profile</a></td>
+				<td><a href="#">View Profile</a></td>
+				<td><a href="#">View Profile</a></td>
+				<td><a href="#">View Profile</a></td>
+			</tr>
+		</table>
+	</section>	
+	</div>
 
-<div class = "links">
+<!--FOOOTER-
+	<footer class="copy">
+		<p>Copyright &copy; 2013, Blue Developer Directory - 
+		<a href="#"> Info Page </a> </p>
+	</footer>  -->
 
-  <div id = "icons">
-  
-    <a href = "https://facebook.com/problogger"> <img src = "images/facebook.png"> </a>
-  
-    <a href = "https://www.twitter.com/problogger"> <img src = "images/twitter.jpg"> </a>
-  
-    <a href = "itms://itunes.apple.com/podcast/problogger-podcast-blog-tips/id1012723880">
-    <img src = "images/itunes.png"> </a>
-  
-    <a href = "https://www.linkedin.com/in/darrenrowse"> <img src = "images/linkedin.png"> </a>
-  
-    <a href="https://www.youtube.com/user/darrenrowse"> <img src = "images/youtube.jpg"> </a>
-  
-    <a href="https://feeds.feedblitz.com/ProBlogger"> <img src = "images/feed.jpg"> </a>
-  
-  </div>
-  
-  <div id = "join"> JOIN OUR COMMUNITY OF <div id = "numbers"> 300,000+ </div> BLOGGERS! </div>
+	<footer>
+      
 
-</div> <!--div link end-->
-
-<div class = "main">
-
-  <div id = "heading1"> BLOGPOSTS </div>
-	<div id = "heading2">  PODCASTS </div>
-	<div id = "heading3">  LEARN </div>
-	
-	
-	  <div id = "main1"> 
-	    <a href = "https://problogger.com/edit-your-blog-posts/">
-	    <img src = "images/numbers.jpg"> 
-	    How to Use Numbers Effectively in your Blog Posts </a>
-	  </div>
-	  
-	  <div id = "main1">
-	    <a href = "https://problogger.com/podcast/choosing-a-domain-name/">
-	    <img src = "images/email.jpg"> 
-	    220: What you Shouls include in your Email Newsletters </a>
-	  </div>
-	  
-	  <div id = "main1">
-	    <a href = "https://www.eventbrite.com/e/success-incubator-presented-by-problogger-digital-colab-tickets-32406895898">
-        <img src = "images/speakers.jpg"> 
-	    Dallas Success Incubator </a>
-	  </div>
-	
-	
-	
-	  <div id = "main2">
-	    <a href = "https://problogger.com/make-your-posts-more-readable/">
-	    <img src = "images/lists.jpg"> 
-        How to Use Lists Effectively in Your Blog Posts</a>
-	  </div>
-	
-	  <div id = "main2">
-	    <a href = "https://problogger.com/podcast/style-guide/">
-	    <img src = "images/microphone.png"> 
-	    219: I would like to Feature YOU on the ProBlogger Podcast</a>
-	  </div>
-	  
-	  <div id = "main2">
-	    <a href = "https://problogger.com/missed-last-week-problogger-evolve/">
-	    <img src = "images/PBEvent.jpg"> 
-	    Inside ProBlogger Evlove </a>
-	  </div>
-	
-	
-	
-	  <div id = "main3">	
-	    <a href = "https://problogger.com/reader-survey/">
-	    <img src = "images/30min.jpg"> <br>
-		 Case Study: The 30-Minute Habit That Transformed Kelly's Blog </a> 
-		</div>
-	
-	  <div id = "main3">
-	    <a href = "https://problogger.com/podcast/simplify-your-business/">
-	    <img src = "images/arrow.jpg"> <br>
-		218: How to Set Smart Blogging Goals for the New Year </a> 
-	  </div>
-	
-	  <div id = "main3">
-	    <a href = "https://problogger.com/events/">
-	    <img src = "images/PBEventAlert.png"> 
-	    Sign Up for Future Event Details </a>
-	  </div>
-	 
-  
-  <div id = "posts"> <a href = "https://problogger.com/blog"> View All Posts </a> </div>
-  
-  <div id = "podcasts"><a href = "https://problogger.com/podcast"> View All Podcasts </a> </div>
-  
-  <div id = "learn"> Learn </div> 
-    
-</div> <!--div main end-->
-
-<div class = "help">
-
-  <div id = "needhelp"> I need help to... </div>
-    <div class = "icon">
-  
-      <div id = "icons1">
-        <a href = "https://problogger.com/start-a-blog-portal/">
-        <i class = "fa fa-play-circle"> </i> <br>
-        START A BLOG  </a>   
-      </div>
-   
-	  <div id = "icons1">
-        <a href = "https://problogger.com/create-content-portal/">
-        <i class = "fa fa-pencil"> </i> <br>
-        CREATE CONTENT  </a>   
-	  </div>
-   
-      <div id = "icons1">
-     <a href = "https://problogger.com/find-readers-portal/">
-     <i class = "fa fa-binoculars"> </i> <br>
-     FIND READERS  </a>
-   </div>	
-	
-   <div id = "icons1">
-     <a href = "https://problogger.com/build-community-portal/">
-     <i class = "fa fa-group"> </i>	 <br>
-     BUILD COMMUNITY  </a>   
-   </div>
-  		
-  
-  
-  <div id = "icons2">
-     <a href = "https://problogger.com/make-money-blogging-portal/">
-     <i class = "fa fa-money"> </i>  <br>
-	 MAKE MONEY <br> BLOGGING  </a>  
-   </div>
-   
-   <div id = "icons2">
-     <a href = "https://problogger.com/be-productive-portal/">
-     <i class = "fa fa-clock-o"> </i>  <br>
-	 BE PRODUCTIVE  </a>   
-   </div>
-   
-   <div id = "icons2">
-     <a href = "https://problogger.com/understand-technology/">
-     <i class = "fa fa-gears"> </i> <br>
-	 UNDERSTAND <br> TECHNOLOGY  </a>  
-   </div>
-   
-   <div id = "icons2">
-     <a href = "https://problogger.com/get-work/">
-     <i class = "fa fa-newspaper-o"> </i>  <br>
-	 GET WORK </a>   
-   </div>
-</div>	
-	
-	
-	
-  <div id = "week"> 
-    Every week we will send you Blogging advice, tips and in-depth tutorials 
-  </div>
-  
-  
-  <div id = "join1"> JOIN OUR COMMUNITY OF
-    <div id = "number"> 300,000+  </div>
-    BLOGGERS! 
-  </div> <!--div join1 end-->
-  
-  <div id = "subscription">
-  
-    <form name= "subscription" method= "post" action= "https://www.getdrip.com/forms/54249362/submissions">
-	
-      <input type = "text" name = "yourname" placeholder = "Name" required>
-      <input type = "email" name = "youremail" placeholder = "Email" required>
-    
-      <input type = "button" value = "SUBSCRIBE" onclick = "check(this.form)">  
-
-    </form>
-  </div>
-  
-  
-  </div>
-  
-<div class = "end">
-  
-  <div class = "list1">
-  
-    <h3> <a href = "https://problogger.com/jobs"> RECENTLY AT THE JOB BOARD </a> </h3>
-	
-    <ul>
-      <li> <a href = "https://feedproxy.google.com/~r/ProBloggerJobs/~3/AtFC8qWxh9Q/">  Bloggers Needed  </li> </a>
-	  <li> <a href = "https://feedproxy.google.com/~r/ProBloggerJobs/~3/q3A2LaWjEgQ/">  Content Writer </li> </a>
-	  <li> <a href = "https://feedproxy.google.com/~r/ProBloggerJobs/~3/-u3nnUPj-oU/">  Architecture and decoration writer</li> </a>
-	  <li> <a href = "https://feedproxy.google.com/~r/ProBloggerJobs/~3/tNY8SR3g1fI/">  Excellent Content Writer - With Passion <br> for Electric Cars & Green Tech </li> </a>
-	  <li> <a href = "https://feedproxy.google.com/~r/ProBloggerJobs/~3/PFQJX-9KYsY/">  Need a writer for a life insurance blog </li> </a>
-    </ul>
-  </div>
-  
-  <div class = "list2">
-  
-	 <h3> PROBLOGGER TOP ARTICLES </h3>
-	 
-	<ul>
-      <li> <a href = "https://problogger.com/how-to-start-a-blog/"> How to Start a Blog </a> </li>
-	  <li> <a href = "https://problogger.com/how-to-write-great-blog-content/"> How to Create Great Blog Content </a> </li>
-	  <li> <a href = "https://problogger.com/how-to-find-readers-for-your-blog/how-to-find-readers-for-your-blog/"> How to Find Readers for your Blog </a> </li> 
-	  <li> <a href = "https://problogger.com/7-strategies-for-growing-community-on-your-blog/"> 7 Stratagies to Build Community on your Blog </a> </li> 
-	  <li> <a href = "https://problogger.com/make-money-blogging"> How to make Money Blogging </a> </li> 
-	  <li> <a href = "https://problogger.com/5-ways-to-make-your-blogging-life-easier/"> 5 Ways to make your Blogging Life easier </a> </li> 
-    </ul>
-  </div>
-  
-  <div class = "list3">
-  
-	<h3> TOP RESOURCES </h3>
-	
-	<ul>
-      <li> <a href = "https://problogger.com/31dbbb-workbook/"> 31 Days to build a Better Blog </a> </li> 
-	  <li> <a href = "https://problogger.com/first-week/"> ProBlogger's Guide to your First Week of <br> Blogging </a> </li> 
-	  <li> <a href = "https://problogger.com/business-blogging/"> ProBlogger's Guide to Blogging foy your Business </a> </li> 
-	  <li> <a href = "https://problogger.com/blogwise"> Blog Wise: How to do more with less </a> </li> 
-	  <li> <a href = "https://problogger.com/marketing/"> The Blogger's Guide to Online Marketing </a> </li> 
-	  <li> <a href = "https://problogger.com/recommended-blogging-resources/"> Recommended Blogging Resources </a> </li> 
-    </ul>
-  </div>
-  
-</div> <!--div end ends-->
+    </footer>
 
 
-<footer>
 
-  <div id = "copyright"> Copyright&copy;2017 ProBlogger </a> .com. All Rights Reserved
-  </div>
-  
-  <nav>
-    <a href = "https://problogger.com/about-problogger/"> About </a>
-	<a href = "https://problogger.com/blog"> Blog </a>
-	<a href = "https://problogger.com/podcast"> Podcast </a>
-	<a href = "https://problogger.com/learn"> eBooks </a>
-	<a href = "https://problogger.com/recommended-blogging-resources"> Resources </a>
-	<a href = "http://jobs.problogger.net/"> Jobs </a>
-	<a href = "http://probloggerevents.com/"> Events </a>
-	<a href = "https://problogger.com/speaking/"> Speaking </a>
-	<a href = "https://problogger.com/privacy-policy/"> Privacy </a>
-	<a href = "https://problogger.com/terms-and-conditions/"> Terms </a>
-	<a href = "https://problogger.com/contact/"> Contact </a>
-  </nav>
-  
-</footer>
+<!--
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"> </script>
 
-<script src = "javascript.js">
-</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"> </script>
+
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"> </script>
+-->
 
 </body>
-</html> 
+</html>
