@@ -1,2 +1,3 @@
 # practice111
-This is a copy of the original website that I have created just to practice HTML and CSS. I am also not the developer of the original website. 
+
+This website is just a small project of mine to practice HTML, CSS, Bootstrap, PHP and MySQL.
