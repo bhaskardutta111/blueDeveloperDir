@@ -1,0 +1,100 @@
+
+.bio{
+	background: #fff;
+	border: 6px solid blue;
+	border-radius: 10px;
+	width: 750px;
+	min-width: 750px;
+	height: 800px;
+	min-height: 800px;
+	margin: 5px;
+	margin-top: 15px;
+	margin-right: 300px;
+	float: right;
+
+}
+
+.bio h4{
+	font-weight: bold;
+	margin: 17px;
+
+}
+
+.bio img{
+	float: right;
+}
+
+.bio h6{
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 17px;
+}
+
+.bio p{
+	color: black;
+	font-size: 16px;
+	margin: 17px;
+}
+
+/*VIDEO*/
+.videoplayer{
+	border: 5px solid black;
+	border-radius: 18px;
+	width: 650px;
+	height: 390px;
+	margin: 17px;
+	margin-right: 5px;
+}
+
+.video{
+	width: 640px;
+	height: 300px;	
+}
+
+#defaultBar{
+	 
+}
+
+#progressBar{
+
+}
+
+hr{
+	display: block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-width: 4px;
+}
+
+.videocontrols button{
+	margin: 5px;
+
+}
+
+.videocontrols button[id="fullscreen"]{
+	float: right;
+}
+
+.videocontrols .containvolrange{
+	width: 100px;
+	display: inline-block;
+}
+
+.containvolrange #volumerange{
+	-webkit-appearance: none;
+	width: 150px;
+	height: 5px;
+	background: blue;
+	opacity: 0.7;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.containvolrange #volumerange:hover{
+	opacity: 1;
+}
+

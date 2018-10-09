@@ -1,0 +1,51 @@
+
+.contactsec{
+	background: #fff;
+	border: 6px solid blue;
+	border-radius: 10px;
+	width: 750px;
+	min-width: 750px;
+	height: 540px;
+	min-height: 540px;
+	margin: 5px;
+	margin-top: 15px;
+	margin-right: 300px;
+	float: right;
+
+}
+
+.contactsec h4{
+	font-weight: bold;
+	margin: 10px;
+	color: blue;
+
+}
+
+.contactsec p{
+	font-weight: bold;
+	margin: 15px;
+}
+
+.contactform{
+	margin: 10px;
+
+}
+/*
+.service{
+	font-weight: bold;
+	margin: 15px;
+}
+*/
+.form-check-inline{
+	margin: 5px;
+	margin-top: -15px;
+	margin-left: 5px;
+}
+
+.form-row{
+	margin: 5px;
+}
+
+button #submit{
+	
+}
